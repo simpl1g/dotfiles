@@ -1,0 +1,7 @@
+[color]
+	ui = true
+[user]
+	name = Konstantin Ilchenko
+	email = konstantin@ilchenko.by
+[push]
+	default = current
