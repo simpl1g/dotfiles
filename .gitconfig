@@ -5,3 +5,5 @@
 	email = konstantin@ilchenko.by
 [push]
 	default = current
+[core]
+	excludesfile = ~/.gitignore_global
