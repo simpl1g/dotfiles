@@ -4,6 +4,8 @@ dotfiles
 == Install thoughtbot's laptop
 bash <(wget -qO- https://raw.githubusercontent.com/thoughtbot/laptop/master/linux)
 
+curl -L http://install.ohmyz.sh | sh
+
 Generate ssh keys
 =====
 
