@@ -12,19 +12,10 @@ Generate ssh keys
 	ssh-keygen -t rsa -C "konstantin@ilchenko.by"
 Add to github
 
-Clone repo
+Install Base Programs
 --------
-	git init
-	git remote add origin git@github.com:simpl1g/dotfiles.git
-	git fetch
-	rm .bashrc
-	rm .zshrc
-	git checkout -t origin/master
-	git clone git@github.com:Anthony25/gnome-terminal-colors-solarized.git
-	./gnome-terminal-colors-solarized/set_dark.sh
 
-Install Chrome
---------
+Chrome, Skype, Dropbox, Sublime Text 3, VLC, GIMP, Krusader, Java 7&8, Flash, Archive Tools, Codecs
 
 	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &&
 	sudo dpkg -i google-chrome-stable_current_amd64.deb &&
@@ -50,10 +41,19 @@ Install Chrome
 	sudo apt-get -y dist-upgrade
 
 	sudo apt-get install -y synaptic vlc gimp gimp-data gimp-plugin-registry gimp-data-extras y-ppa-manager bleachbit openjdk-7-jre oracle-java8-installer flashplugin-installer unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller libxine1-ffmpeg mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 totem-mozilla icedax lame libmad0 libjpeg-progs libdvdcss2 libdvdread4 libdvdnav4 libswscale-extra-2 ubuntu-restricted-extras ubuntu-wallpapers* sublime-text-installer krusader
-Install Skype 4.3
--------
 
 	sudo apt-get purge skype skype-bin:i386 skype:i386 ; sudo apt-get install sni-qt:i386 ; wget http://www.skype.com/go/getskype-linux-beta-ubuntu-64 -O /tmp/skype-ubuntu-latest_i386.deb && sudo dpkg -i /tmp/skype-ubuntu-latest_i386.deb ; sudo apt-get install -f
+
+Clone repo
+--------
+	git init
+	git remote add origin git@github.com:simpl1g/dotfiles.git
+	git fetch
+	rm .bashrc
+	rm .zshrc
+	git checkout -t origin/master
+	git clone git@github.com:Anthony25/gnome-terminal-colors-solarized.git
+	./gnome-terminal-colors-solarized/set_dark.sh
 
 Finish
 -------
