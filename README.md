@@ -4,11 +4,21 @@ dotfiles
 == Install thoughtbot's laptop
 bash <(wget -qO- https://raw.githubusercontent.com/thoughtbot/laptop/master/linux)
 
+Generate ssh keys
+=====
+
+ssh-keygen -t rsa -C "konstantin@ilchenko.by"
+
+Add to github
+
+
 == Clone repo
-git clone git@github.com:simpl1g/dotfiles.git .
-git submodule init
-sudo apt-get install -y dconf-cli
-./gnome-terminal-colors-solarized/install.sh
+git init
+git remote add origin git@github.com:simpl1g/dotfiles.git
+git fetch
+git checkout -t origin/master
+git clone git@github.com:Anthony25/gnome-terminal-colors-solarized.git
+./gnome-terminal-colors-solarized/set_dark.sh
 
 == Install Chrome
 
