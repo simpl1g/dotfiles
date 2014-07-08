@@ -44,6 +44,14 @@ Chrome, Skype, Dropbox, Sublime Text 3, VLC, GIMP, Krusader, Java 7&8, Flash, Ar
 
 	sudo apt-get purge skype skype-bin:i386 skype:i386 ; sudo apt-get install sni-qt:i386 ; wget http://www.skype.com/go/getskype-linux-beta-ubuntu-64 -O /tmp/skype-ubuntu-latest_i386.deb && sudo dpkg -i /tmp/skype-ubuntu-latest_i386.deb ; sudo apt-get install -f
 
+Install Pulsar Audio Player for VK.com
+--------
+
+	echo 'deb http://ppa.launchpad.net/yuberion/pulsar/ubuntu saucy main' | sudo tee -a /etc/apt/sources.list
+	sudo apt-get update
+	sudo apt-get install pulsar
+	sudo sed -i '$ d' /etc/apt/sources.list
+
 Clone repo
 --------
 	git init
