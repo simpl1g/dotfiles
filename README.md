@@ -52,6 +52,24 @@ Install Pulsar Audio Player for VK.com
 	sudo apt-get update
 	sudo apt-get install pulsar
 	sudo sed -i '$ d' /etc/apt/sources.list
+	
+Install sopcast player
+--------
+
+	wget http://download.easetuner.com/download/sp-auth.tgz
+	tar -zxvf sp-auth.tgz
+	sudo cp ./sp-auth/sp-sc-auth /usr/bin/sp-sc
+	sudo cp ./sp-auth/sp-sc-auth /usr/local/bin/sp-sc
+	wget http://download.easetuner.com/download/sp-auth.tgz
+	tar -zxvf sp-auth.tgz
+	sudo cp ./sp-auth/sp-sc-auth /usr/bin/sp-sc
+	sudo cp ./sp-auth/sp-sc-auth /usr/local/bin/sp-sc
+	sudo apt-get install gettext
+	wget http://sopcast-player.googlecode.com/files/sopcast-player-0.8.5.tar.gz
+	tar -zxvf sopcast-player-0.8.5.tar.gz
+	cd sopcast-player/
+	make
+	sudo make install
 
 Clone repo
 --------
