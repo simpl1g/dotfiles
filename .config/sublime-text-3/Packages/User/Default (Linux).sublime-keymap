@@ -1,0 +1,7 @@
+[
+  {
+    "keys": ["ctrl+alt+g"],
+    "command": "go_to_definition",
+    "args": {}
+  }
+]
