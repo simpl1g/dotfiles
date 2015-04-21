@@ -42,3 +42,6 @@ build/
 ## Environment normalisation:
 /.bundle/
 /lib/bundler/man/
+
+.tags
+.tags_sorted_by_file

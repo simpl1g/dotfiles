@@ -1,8 +1,16 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"file_exclude_patterns":
+	[
+		".tags",
+		".tags_sorted_by_file",
+		".gemtags"
+	],
 	"ignored_packages":
 	[
-		"Vintage"
+		"Markdown",
+		"Vintage",
+		"Liquid"
 	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,

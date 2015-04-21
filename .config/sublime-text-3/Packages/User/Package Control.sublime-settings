@@ -1,11 +1,20 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"CTags",
 		"Go To Definition",
+		"Markdown Preview",
+		"Package Control",
 		"Rails Developer Snippets",
 		"Rails Latest Migration",
+		"Ruby Hash Converter",
+		"Ruby Slim",
 		"RubyTest",
+		"SCSS",
 		"SideBarEnhancements"
 	]
 }
